@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Sulphur+Point&display=swap');
+
+* {
+    font-family: 'Sulphur Point', sans-serif;
+    text-align: center;
+    margin-top: 3vh;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #46e0f6;
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+}
+
+input {
+    border-radius: 18px;
+    border: 1px solid #46e0f6;
+    padding: 5px;
+    margin: 0 0.5rem 0 1rem;
+    font-size: 1rem;
+}
