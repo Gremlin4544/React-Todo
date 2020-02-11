@@ -30,11 +30,11 @@ class TodoForm extends React.Component {
                 <input 
                         type = "text"
                         name = "item"
-                        placeholder = "...todo"
+                        placeholder = "... Add a new task"
                         onChange = {this.handleChanges}
                         value = {this.state.newItemName}
                     />
-                    <button type = "submit">Add Todo</button>
+                    <button className="newTodoItem" type = "submit">ADD</button>
                     <button onClick = {this.props.removeItem} type = "submit">Clear Completed</button>   
                 </form>     
         )

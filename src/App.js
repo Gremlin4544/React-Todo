@@ -57,7 +57,7 @@ class App extends React.Component {
     return (
       <div className="displayList">
         <img src={list} alt="girl adding tasks to todo list" />
-
+        <h1>Never Ending TO Do List</h1>
         <TodoForm removeItem = {this.removeItem} addItem = {this.addItem}/>
         <TodoList toggle = {this.toggle} tasks = {this.state.task} />
       </div>
